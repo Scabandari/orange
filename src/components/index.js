@@ -1,4 +1,5 @@
-import Header from './Header';
 import Todos from './Todos';
+import CreateTodoModal from './CreateTodoModal';
+import UpdateTodoModal from './UpdateTodoModal';
 
-export { Header, Todos };
+export { UpdateTodoModal, CreateTodoModal, Todos };

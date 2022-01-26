@@ -19,4 +19,18 @@ const saveState = (name, newState) => {
 		console.log(err);
 	}
 };
-export { loadState, saveState, };
+
+const isPalindrom = (word) => {
+	let front = 0;
+	let back = word.length-1;
+	while (back > front) {
+		if (word[front] !== word[back]) {
+			return false;
+		}
+		front++;
+		back--;
+	}
+	return true;
+};
+
+export { loadState, saveState };
